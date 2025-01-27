@@ -23,6 +23,8 @@ info:
     * Last updated date-time
   version: v1
 servers:
+- url: https://two44b-be-nodejs-lenzo.onrender.com/products-api/v1
+  description: TT render 25.0125
 - url: https://marcolenzo.eu/products-api/v1
   description: Production environment
 - url: http://localhost:8080/products-api/v1
@@ -34,7 +36,8 @@ tags:
 - name: Products
   description: Product management
   externalDocs:
-    url: https://marcolenzo.eu/docs/products
+     url: https://two44b-be-nodejs-lenzo.onrender.com/products
+#    url: https://marcolenzo.eu/docs/products
 paths:
   /products:
     get:
