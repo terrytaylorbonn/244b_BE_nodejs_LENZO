@@ -12,7 +12,7 @@ exports.createProduct = function(body) {
   return new Promise(function(resolve, reject) {
     var examples = {};
     examples['application/json'] = {
-  "price" : 4.99,
+  "price" : 4.98,
   "name" : "Coffee",
   "description" : "Arabica coffee beans",
   "lastUpdatedOn" : "2023-01-01T10:10:10Z",

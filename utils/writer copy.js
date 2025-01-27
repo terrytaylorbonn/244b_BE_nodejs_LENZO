@@ -1,11 +1,4 @@
-// utils/writer.js
-const express = require('express');
-const cors = require('cors');
-const app = express();
-
-app.use(cors());
-
-var ResponsePayload = function (code, payload) {
+var ResponsePayload = function(code, payload) {
   this.code = code;
   this.payload = payload;
 }
@@ -48,7 +41,3 @@ var writeJson = exports.writeJson = function(response, arg1, arg2) {
   response.writeHead(code, {'Content-Type': 'application/json'});
   response.end(payload);
 }
-
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
-});

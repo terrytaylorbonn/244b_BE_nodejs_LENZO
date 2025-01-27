@@ -4,8 +4,8 @@
   "description": "This a sample specification part of a YT tutorial showcasing how to design a RESTful API contract using OpenAPI.  We are going to create an API to manage products with the the following operations: * List all Products * Create a Product * Get Product details * Update Product * Delete Product  We will cover also the following topics: * Result pagination * Security (Auth'n / Auth'z)  We will use a simple **Product** resource representation with the following properties: * ID * Name * Price * Description (optional) * Last updated date-time ",
   "main": "index.js",
   "scripts": {
-	"prestart": "npm install",
-	"start": "node index.js"
+    "prestart": "npm install",
+    "start": "node index.js"
   },
   "keywords": [
     "swagger"
@@ -14,6 +14,7 @@
   "private": true,
   "dependencies": {
     "connect": "^3.2.0",
+    "cors": "^2.8.5",
     "js-yaml": "^3.3.0",
     "oas3-tools": "^2.2.3"
   }
