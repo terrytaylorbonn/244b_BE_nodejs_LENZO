@@ -49,6 +49,6 @@ var writeJson = exports.writeJson = function(response, arg1, arg2) {
   response.end(payload);
 }
 
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
+app.listen(serverPort, () => {
+  console.log('Server is running on port serverPort (not 3000');
 });
